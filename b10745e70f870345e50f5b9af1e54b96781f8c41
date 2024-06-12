@@ -16,6 +16,24 @@
       "message": "should be in hal_aam.te",
       "revId": "b10745e70f870345e50f5b9af1e54b96781f8c41",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2597b820_1a94a4c3",
+        "filename": "aam/servicemanager.te",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-06-12T20:55:45Z",
+      "side": 1,
+      "message": "Done but FTR\n\nvendor/servicemanager.te\n1:binder_call(servicemanager, hal_gnss_pixel)\n2:binder_call(servicemanager, hal_gnss_default)",
+      "parentUuid": "b51c42a8_0d670fc0",
+      "revId": "b10745e70f870345e50f5b9af1e54b96781f8c41",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
